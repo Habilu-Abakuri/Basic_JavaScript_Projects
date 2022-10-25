@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    display: grid;
+    max-width: 100px;
+    grid-template-columns: auto auto auto auto;
+    gap: 1px;
+    background-color: azure;
+    padding: auto;
+    margin: 25px;
+}
+
+.container > div {
+    background-color: antiquewhite;
+    text-align: center;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    padding: 10%;
+    font-size: 25px;
+}
+
+#display {
+    grid-column: 1 / span 4;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: cyan;
+    color: black;
+}
+
+#equal {
+    background-color: #5555ff;
+    color: white;
+}
+
+.container > div:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+
